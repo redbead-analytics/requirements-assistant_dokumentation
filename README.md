@@ -63,4 +63,3 @@ IHK-Abschlussprojekt Sommer 2026 (Fachinformatiker für Anwendungsentwicklung). 
 
 ---
 
-*Source code available on request.*
