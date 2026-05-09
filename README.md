@@ -1,4 +1,4 @@
-# Regelbasierter Chat Assistant for Website Anforderungen
+# Regelbasierter Chat Assistant für Website Anforderungen
 
 **Ein konfigurierbarer, regelbasierter Web-Assistent 
 zur automatisierten und validierten Erhebung 
