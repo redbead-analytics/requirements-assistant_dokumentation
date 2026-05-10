@@ -1,6 +1,6 @@
-# Regelbasierter Chat Assistant für Website Anforderungen
+# Chat Assistant für Website Anforderungen
 
-**Ein konfigurierbarer, regelbasierter Web-Assistent zur automatisierten und validierten Erhebung von Website-Anforderungen im KMU-Umfeld.**
+**Ein konfigurierbarer, Web-Assistent zur automatisierten und validierten Erhebung von Website-Anforderungen im KMU-Umfeld.**
 
 ---
 
@@ -21,7 +21,6 @@ Entwicklung eines vollständig clientseitigen, zustandsbasierten Chat-Assistente
 * **Deterministische Prozesssteuerung**: Einsatz einer Finite State Machine (FSM) zur Steuerung kontextsensitiver Abfragen (z. B. Domain-Migrationen, Paketgrenzen).
 * **In-Line Validierung**: Sofortige Prüfung von Eingaben gegen technische Standards (z. B. RFC 5321 für E-Mails) und gebuchte Paketkontingente.
 * **Automatisierter PDF-Export**: Generierung eines strukturierten Übergabeprotokolls direkt im Browser zur nahtlosen Weitergabe an Design und Technik.
-* **Privacy by Design**: Vollständiger Verzicht auf ein Backend; Verarbeitung und temporäre Persistenz erfolgen ausschließlich lokal im Browser des Nutzers.
 
 ### Impact
 <div align="justify">
@@ -34,15 +33,16 @@ Die Lösung optimiert die primären Prozess-KPIs durch Standardisierung und Auto
 * **Usability**: Erzielter System Usability Scale (SUS) Score von 84,2 (Benchmark: ≥ 80).
 
 ### Tech Stack
+* **Framework**: React.
 * **Sprachen**: HTML5, CSS3, Vanilla JavaScript (ES6+).
 * **Architektur**: Finite State Machine (FSM), Model-View-Update (MVU) Pattern.
-* **Persistenz**: Web Storage API (localStorage/sessionStorage).
+* **Persistenz**: Web Storage API (localStorage/sessionStorage), IndexedDB.
 * **Security**: DOM-basierte Sanitierung, Content Security Policy (CSP), OWASP ASVS L1.
 * **Deployment/Hosting**: heise Server (statisches File-Serving).
 
 ### Architektur
 <div align="justify">
-Die Anwendung nutzt eine <b>Finite State Machine (FSM)</b> als zentrales Steuerungselement, um den komplexen Abfrage-Flow in 33 deterministische Zustände zu unterteilen und unzulässige Navigation zu verhindern. Durch die strikte Trennung von Geschäftslogik und UI-Schicht (MVU-Pattern) werden Zustandsänderungen deklarativ in den DOM gerendert. Die Architektur ist <b>serverlos</b> konzipiert; sämtliche Validierungen und die Dokumentengenerierung finden zur Wahrung der Datensparsamkeit ausschließlich auf dem Client statt. Ein integriertes Security-Modul stellt die Eingabesanitierung sicher, indem es die native DOM-API zur Vermeidung von XSS-Vektoren nutzt.
+Die Anwendung nutzt eine <b>Finite State Machine (FSM)</b> als zentrales Steuerungselement, um den komplexen Abfrage-Flow in 33 deterministische Zustände zu unterteilen und unzulässige Navigation zu verhindern. Durch die strikte Trennung von Geschäftslogik und UI-Schicht (MVU-Pattern) werden Zustandsänderungen deklarativ in den DOM gerendert. Ein integriertes Security-Modul stellt die Eingabesanitierung sicher, indem es die native DOM-API zur Vermeidung von XSS-Vektoren nutzt.
 </div>
 
 ### Screenshots 
