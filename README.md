@@ -48,7 +48,7 @@ Die Anwendung nutzt eine <b>Finite State Machine (FSM)</b> als zentrales Steueru
 ### Screenshots 
 
 <p align="center">
-  <img src="website_assistent/0_Überschrift.png" width="45%" alt="Überschrift">
+
   <img src="website_assistent/1_start_screen.png" width="45%" alt="Start Screen">
   <img src="website_assistent/2_startscreen_functions.png" width="45%" alt="Funktionen">
   <img src="website_assistent/3_ai_assistent.png" width="45%" alt="KI Assistent">
