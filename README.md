@@ -33,7 +33,7 @@ Die Lösung optimiert die primären Prozess-KPIs durch Standardisierung und Auto
 * **Usability**: Erzielter System Usability Scale (SUS) Score von 84,2 (Benchmark: ≥ 80).
 
 ### Tech Stack
-* **Framework**: React.
+* **Framework**: React (Admin-Oberfläche, in Umsetzung)
 * **Sprachen**: HTML5, CSS3, Vanilla JavaScript (ES6+).
 * **Architektur**: Finite State Machine (FSM), Model-View-Update (MVU) Pattern.
 * **Persistenz**: Web Storage API (localStorage/sessionStorage), IndexedDB.
@@ -63,6 +63,7 @@ Die Anwendung nutzt eine <b>Finite State Machine (FSM)</b> als zentrales Steueru
 ### Status
 <div align="justify">
 IHK-Abschlussprojekt Sommer 2026 (Fachinformatiker für Anwendungsentwicklung). Die formale Abnahme durch den Ausbildungsbetrieb erfolgte am 20. März 2026 ohne Mängel.
+React-basierte Admin-Oberfläche zur Projektverwaltung in Umsetzung.
 </div>
 
 ---
