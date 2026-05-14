@@ -51,9 +51,13 @@ Die Anwendung nutzt eine <b>Finite State Machine (FSM)</b> als zentrales Steueru
 
   <img src="website_assistent/1_start_screen.png" width="45%" alt="Start Screen">
   <img src="website_assistent/2_startscreen_functions.png" width="45%" alt="Funktionen">
+  <img src="website_assistent/regelbasierter_assistent.png" width="45%">
   <img src="website_assistent/3_ai_assistent.png" width="45%" alt="KI Assistent">
   <img src="website_assistent/4_accesskit.png" width="45%" alt="AccessKit">
   <img src="website_assistent/5_shop.png" width="45%" alt="Shop System">
+ 
+
+  
 </p>
 
 ### Status
